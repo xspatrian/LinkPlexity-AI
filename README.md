@@ -1,9 +1,9 @@
 # 🔗 LinkPlexity-AI
 AI based extension to detect and block phishing or scam links in real time.
 
+⚠️ *This extension is still under development.*
 
 
----
 
 ## ✨ Features
 - Scan all links on any webpage
@@ -11,7 +11,7 @@ AI based extension to detect and block phishing or scam links in real time.
 - Simple and user-friendly popup interface
 - Works locally in the browser (privacy-friendly)
 
----
+
 
 ## 🛠️ Technical Overview
 - **Manifest V3** Chrome Extension
@@ -20,20 +20,19 @@ AI based extension to detect and block phishing or scam links in real time.
 - **Popup UI** → Built with HTML, CSS, and JavaScript
 - Designed with modularity for future API & AI integration
 
----
 
 ## 🚀 Installation
 1. Clone this repository:
    ```bash
    git clone https://github.com/YOUR-USERNAME/linkplexity-ai.git
 
-Open Chrome and navigate to chrome://extensions/
+2. Open Chrome and navigate to chrome://extensions/
 
-Enable Developer mode (toggle in the top-right)
+3. Enable Developer mode (toggle in the top-right)
 
-Click Load unpacked and select the project folder
+4. Click Load unpacked and select the project folder
 
-The extension is now ready to use 🎉
+5. The extension is now ready to use 🎉
 
 
 ## 📖 Usage
