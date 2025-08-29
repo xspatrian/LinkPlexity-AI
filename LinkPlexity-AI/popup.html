@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LinkPlexity • Shield</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="icons/icon128.png" alt="LinkPlexity" class="logo" />
+      <div class="title">
+        <div class="name">LinkPlexity</div>
+        <div class="sub">Detect scam & phishing links</div>
+      </div>
+    </header>
+
+    <section class="controls">
+      <div class="row">
+        <button id="scanBtn" class="btn primary">
+          <span id="scanIcon" class="scan-icon">🔍</span>
+          <span id="scanText">Scan Page Links</span>
+        </button>
+
+        <label class="toggle">
+          <input type="checkbox" id="autoScan" />
+          <span class="slider"></span>
+          <span class="label-text">Auto-scan</span>
+        </label>
+      </div>
+
+      <div class="progress-row" id="progressRow" hidden>
+        <div class="spinner" id="spinner"></div>
+        <div class="progress-text" id="progressText">Scanning links...</div>
+      </div>
+    </section>
+
+    <section class="results" id="results">
+      <div class="results-header">
+        <h3>Results</h3>
+        <div id="summary" class="summary">No scans yet</div>
+      </div>
+      <ul id="resultsList" class="results-list">
+        <!-- JS will populate -->
+      </ul>
+    </section>
+
+    <section class="features">
+      <h4>Features</h4>
+      <ul class="feature-list">
+        <li><span class="pill coming-soon">Coming soon</span> Inbox auto-scan (Gmail/Outlook)</li>
+        <li><span class="pill coming-soon">Coming soon</span> Sandbox open (Safe view)</li>
+        <li><span class="pill coming-soon">Coming soon</span> Family/Parental reports</li>
+        <li><span class="pill coming-soon">Coming soon</span> Enterprise dashboard</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <small>Powered by LinkPlexity • v1.0</small>
+      <a id="settingsLink" class="linkish" href="#">Settings</a>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
