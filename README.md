@@ -30,7 +30,7 @@ AI based extension to detect and block phishing or scam links in real time.
 ## 🚀 Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/linkplexity-ai.git
+   git clone https://github.com/xspatrian/LinkPlexity-AI
 
 2. Open Chrome and navigate to chrome://extensions/
 
