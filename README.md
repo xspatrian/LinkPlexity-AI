@@ -3,11 +3,13 @@ AI based extension to detect and block phishing or scam links in real time.
 
 ⚠️ *This extension is still under development.*
 
+
 ## 🎥 Demo
 
-Check out the demo video of **LinkPlexity AI** in action:  
+![LinkPlexity AI Demo](Linkdemo/first-demo-video.gif)
 
-👉 [Watch Demo Video](https://github.com/xspatrian/LinkPlexity-AI/blob/main/demo/first-demo-video..mp4)
+👉 [Watch Full Demo Video](https://github.com/xspatrian/LinkPlexity-AI/blob/main/demo/first-demo-video..mp4)
+
 
 
 ## ✨ Features
